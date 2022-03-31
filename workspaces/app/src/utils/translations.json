@@ -1,0 +1,50 @@
+{
+  "sv_SE": {
+    "header": "Delbetalning väljs i kassan",
+    "footer": "Delbetalning förutsätter att ett kreditavtal med Santander ingås med ett kreditkort efter en kreditbedömning",
+    "months": "månader",
+    "monthsAlias": "mnd",
+    "monthlyAmount": "Månadsbelopp",
+    "effectiveInterestRate": "Effektiv ränta",
+    "effectiveInterestRateAlias": "Eff. ränta",
+    "inTotal": "Totalt",
+    "cost": "Kostnad",
+    "currencyCode": "SEK"
+  },
+  "no_NO": {
+    "header": "Delbetaling velges i kassen",
+    "footer": "Delbetaling forutsetter inngåelse av kredittavtale med Santander med kredittkort etter en kredittvurdering",
+    "months": "måneder",
+    "monthsAlias": "mnd",
+    "monthlyAmount": "Månedsbeløp",
+    "effectiveInterestRate": "Effektiv rente",
+    "effectiveInterestRateAlias": "Eff. rente",
+    "inTotal": "Totalt",
+    "cost": "Kostnad",
+    "currencyCode": "NOK"
+  },
+  "da_DK": {
+    "header": "Delvis betaling vælges ved kassen",
+    "footer": "Delvis betaling forudsætter indgåelse af en kreditaftale med Santander med et kreditkort efter en kreditvurdering",
+    "months": "måneder",
+    "monthsAlias": "mnd",
+    "monthlyAmount": "Månedsbeløb",
+    "effectiveInterestRate": "Effektiv rente",
+    "effectiveInterestRateAlias": "Eff. rente",
+    "inTotal": "I alt",
+    "cost": "Koste",
+    "currencyCode": "DKK"
+  },
+  "en_GB": {
+    "header": "Partial payment is selected at checkout",
+    "footer": "Partial payment presupposes the conclusion of a credit agreement with Santander with a credit card after a credit assessment",
+    "months": "months",
+    "monthsAlias": "mos",
+    "monthlyAmount": "Monthly amount",
+    "effectiveInterestRate": "Effective interest rate",
+    "effectiveInterestRateAlias": "EIR",
+    "inTotal": "In total",
+    "cost": "Cost",
+    "currencyCode": "GBP"
+  }
+}

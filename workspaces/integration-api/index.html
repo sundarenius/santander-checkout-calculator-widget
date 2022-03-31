@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="./dist/santander-calculator-widget-bootstrapper.js"></script>
+  <!-- <script type="text/javascript" src="http://localhost:8080/dist/santander-calculator-widget-bootstrapper.js"></script> -->
+  <title>Santander widget html example</title>
+</head>
+<body>
+
+  <div id="checkout-widget-container"></div>
+
+  <p>
+    SOME PLACEHOLDER TEXT UNDER
+  </p>
+
+
+<script>
+
+const checkout_widget = new window.SANTANDER_CHECKOUT_WIDGET(
+  'checkout-widget-container',
+  {
+    environment: 'development',
+    mode: 'classic',
+    minAmount: 500,
+    country: 'NO',
+    theme: {
+      borderRadius: '15px',
+      // font: 'Tourney, cursive, https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap',
+    },
+    paymentDetails: {
+      loanAmount: 600,
+      nomInterestRate: 5,
+      termFee: 8,
+      // countrySpecifics: {
+      //   SE: {
+      //     nomInterestRate: 45,
+      //     termFee: 111,
+      //     startupFee: 99,
+      //   },
+      //   DK: {
+      //     nomInterestRate: 11,
+      //     termFee: 13,
+      //   },
+      // }
+    }
+  }, (api) => {
+    api.on({
+      error: (data) => console.log(`Error callback: ${data}`),
+    })
+  }
+);
+
+// setTimeout(() => {
+//   checkout_widget.api.updateConfig({
+//     mode: 'modern',
+//     rajraj: 123
+//   });
+//   checkout_widget.api.updateTheme({
+//     background: '#ebfbeb',
+//     rajraj: 123
+//   });
+//   checkout_widget.api.updatePaymentDetails({
+//     loanAmount: 4000
+//   })
+// }, 2000);
+
+</script>  
+</body>
+</html>

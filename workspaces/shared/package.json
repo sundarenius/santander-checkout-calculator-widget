@@ -1,0 +1,8 @@
+{
+  "name": "@santander-calculator-widget/shared",
+  "version": "1.0.1",
+  "description": "Shared data across app and integration-api folders",
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}

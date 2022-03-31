@@ -1,0 +1,36 @@
+{
+  "name": "@santander-calculator-widget/integration-api",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "main": "index.js",
+  "author": "Håkan Sundström <sundarenius@gmail.com>",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@santander-calculator-widget/shared": "^1.0.1",
+    "@santander-calculator-widget/app": "^1.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "@webpack-cli/generators": "^2.2.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "prettier": "^2.3.1",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

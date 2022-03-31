@@ -1,0 +1,10 @@
+{
+  "name": "santander-checkout-calculator-widget",
+  "version": "1.0.0",
+  "description": "This project contains the application in app, and the integration api in integration_api.",
+  "author": "Håkan Sundström, sundarenius@gmail.com",
+  "private": true,
+    "workspaces": [
+      "workspaces/*"
+    ]
+}
